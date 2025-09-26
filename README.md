@@ -6,6 +6,24 @@ This repo is heavily based on the [Omron APAC repositories](https://github.com/O
 **Author**: David Nie, Taha Inam, Chun Fong Wong  
 **Supervisor**: Dr. Leo Wu 
 
+- [Control Omron MObile MAnipulator (MoMa) through ROS2](#control-omron-mobile-manipulator-moma-through-ros2)
+- [Overview of Components Necessary](#overview-of-components-necessary)
+  - [Omron MoMa](#omron-moma)
+  - [ROS2 System](#ros2-system)
+  - [Features](#features)
+  - [How to connect to the LD](#how-to-connect-to-the-ld)
+  - [How to connect to the TM](#how-to-connect-to-the-tm)
+    - [Get Current Joint Configuration in radian **when moveit is running**](#get-current-joint-configuration-in-radian-when-moveit-is-running)
+- [Architecture Overview](#architecture-overview)
+- [Custom Packages](#custom-packages)
+  - [amr\_arcl\_interface](#amr_arcl_interface)
+  - [wireless package](#wireless-package)
+  - [Camera Package](#camera-package)
+  - [Camera Code](#camera-code)
+  - [YOLO code (Note that `cpu` is used here, remove the attribute if one has a gpu)](#yolo-code-note-that-cpu-is-used-here-remove-the-attribute-if-one-has-a-gpu)
+  - [Demo program](#demo-program)
+
+
 # Overview of Components Necessary
 ## Omron MoMa
 The Omron MoMa consists of the following components:
@@ -65,6 +83,10 @@ Note that when building from scratch your computer may freeze. Instead use expor
 ### Get Current Joint Configuration in radian **when moveit is running**
 
 `ros2 topic echo /joint_states --once | grep position`
+
+# Architecture Overview
+![alt text](img/moma_flowchart.drawio.png)
+
 
 # Custom Packages
 
