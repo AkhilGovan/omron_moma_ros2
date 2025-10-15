@@ -1,0 +1,12 @@
+Polaris IP: 169.254.8.102
+
+CHECK CONNECTION:
+$ ping <IP>
+$ nc -vz 169.254.8.102 8765
+
+COMPILE CAPISAMPLE:
+(from sample directory)
+$ make
+
+RUN PROGRAMME:
+$ ./bin/macosx/CAPIsample 169.254.8.102
