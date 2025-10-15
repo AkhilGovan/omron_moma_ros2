@@ -1,3 +1,4 @@
+#include "ament_index_cpp/get_package_share_directory.hpp"
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
 #include "CombinedApi.h"
@@ -16,14 +17,14 @@ public:
         publisher2_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("polaris/tool2_pose", 10);
 
 
-        std::string ip = "169.254.8.102";  // Polaris IP
+        std::string ip = this->declare_parameter<std::string>("vega_ip", "169.254.8.102");
         if (capi.connect(ip) != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Failed to connect to Polaris.");
+            RCLCPP_ERROR(this->get_logger(), "Failed to connect to Polaris at %s", ip.c_str());
             rclcpp::shutdown();
             return;
         }
+        RCLCPP_INFO(this->get_logger(), "Connected to Polaris at %s", ip.c_str());
 
-        RCLCPP_INFO(this->get_logger(), "Connected to Polaris.");
         onErrorPrintDebugMessage("capi.initialize()", capi.initialize());
 
         configurePassiveTools();
@@ -94,8 +95,16 @@ private:
     void configurePassiveTools() {
         std::cout << "\nConfiguring Passive Tools - Loading .rom Files..." << std::endl;
         // loadTool("sroms/8700338.rom");
-        loadTool("/root/ros2_ws/src/polaris_node/src/sroms/8700339.rom"); // target 
-        loadTool("/root/ros2_ws/src/polaris_node/src/sroms/8700340.rom"); //injector
+        const std::string share = ament_index_cpp::get_package_share_directory("polaris_node");
+        const std::string srom_dir = share + "/sroms";
+
+        // Build full paths first so the c_str() points to a live std::string
+        const std::string rom1 = srom_dir + "/8700339.rom";  // target
+        const std::string rom2 = srom_dir + "/8700340.rom";  // injector
+
+        loadTool(rom1.c_str());
+        loadTool(rom2.c_str());
+
     }
 
     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr publisher1_;

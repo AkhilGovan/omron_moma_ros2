@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(ament_index_cpp REQUIRED)
 
 # Include Polaris SDK headers
 include_directories(
@@ -41,11 +42,14 @@ add_executable(capisample_node
 )
 
 
-ament_target_dependencies(capisample_node rclcpp geometry_msgs)
+ament_target_dependencies(capisample_node rclcpp geometry_msgs ament_index_cpp)
 
 install(TARGETS
   capisample_node
   DESTINATION lib/${PROJECT_NAME}
+)
+install(DIRECTORY src/sroms
+  DESTINATION share/${PROJECT_NAME}
 )
 
 ament_package()
