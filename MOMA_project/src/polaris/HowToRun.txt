@@ -1,0 +1,41 @@
+Build Docker
+docker build -t polaris-ros2 .
+
+Start Docker container
+xhost + 127.0.0.1  # Run this once on your Mac
+
+docker run -it \
+  --env DISPLAY=host.docker.internal:0 \
+  --name polaris-container \
+  -v ~/Desktop/Thesis/Thesis/ros2_ws:/root/ros2_ws \
+  polaris-ros2 \
+  /bin/bash
+
+if made already:
+docker start -ai polaris-container
+
+Run Another Terminal
+docker exec -it polaris-container /bin/bash
+
+Build ROS Workspace in Docker
+
+cd /root/ros2_ws
+rm -rf build/ install/ log/
+colcon build
+
+
+Run Polaris Node
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 run polaris_node capisample_node
+
+Run Python Plot
+python3 src/polaris_node/plot_polaris.py 
+
+Rebuild capisample_node
+cd ~/ros2_ws
+colcon build --packages-select polaris_node
+source install/setup.bash
+
+Ping 
+ping 169.254.8.102
