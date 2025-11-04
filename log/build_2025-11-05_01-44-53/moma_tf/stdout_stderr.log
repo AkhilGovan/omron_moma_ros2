@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/moma_tf/moma_tf.egg-info
+writing ../../../build/moma_tf/moma_tf.egg-info/PKG-INFO
+writing dependency_links to ../../../build/moma_tf/moma_tf.egg-info/dependency_links.txt
+writing entry points to ../../../build/moma_tf/moma_tf.egg-info/entry_points.txt
+writing requirements to ../../../build/moma_tf/moma_tf.egg-info/requires.txt
+writing top-level names to ../../../build/moma_tf/moma_tf.egg-info/top_level.txt
+writing manifest file '../../../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+reading manifest file '../../../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+writing manifest file '../../../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build
+creating /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib
+creating /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib/moma_tf
+copying moma_tf/publish_frames.py -> /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib/moma_tf
+copying moma_tf/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib/moma_tf
+running install
+running install_lib
+creating /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf
+copying /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib/moma_tf/publish_frames.py -> /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf
+copying /home/akhil/Downloads/omron_moma_ros2/build/moma_tf/build/lib/moma_tf/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf/publish_frames.py to publish_frames.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/share/ament_index
+creating /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/share/ament_index/resource_index
+creating /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/share/ament_index/resource_index/packages
+copying resource/moma_tf -> /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/share/ament_index/resource_index/packages
+copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/share/moma_tf
+running install_egg_info
+Copying ../../../build/moma_tf/moma_tf.egg-info to /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/python3.10/site-packages/moma_tf-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publish_frames script to /home/akhil/Downloads/omron_moma_ros2/install/moma_tf/lib/moma_tf
+writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/build/moma_tf/install.log'

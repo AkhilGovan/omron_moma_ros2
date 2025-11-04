@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/PKG-INFO
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/dependency_links.txt
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/entry_points.txt
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/requires.txt
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/top_level.txt
+../build/amr_arcl_interface/amr_arcl_interface.egg-info/zip-safe
+amr_arcl_interface/__init__.py
+amr_arcl_interface/client.py
+amr_arcl_interface/server.py
+resource/amr_arcl_interface
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

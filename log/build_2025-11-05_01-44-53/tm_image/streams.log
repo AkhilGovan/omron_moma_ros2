@@ -1,0 +1,44 @@
+[5.959s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_image': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/tm_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tm_image build --build-base /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build install --record /home/akhil/Downloads/omron_moma_ros2/build/tm_image/install.log --single-version-externally-managed install_data
+[7.100s] running egg_info
+[7.104s] creating ../../../build/tm_image/tm_image.egg-info
+[7.105s] writing ../../../build/tm_image/tm_image.egg-info/PKG-INFO
+[7.107s] writing dependency_links to ../../../build/tm_image/tm_image.egg-info/dependency_links.txt
+[7.108s] writing entry points to ../../../build/tm_image/tm_image.egg-info/entry_points.txt
+[7.108s] writing requirements to ../../../build/tm_image/tm_image.egg-info/requires.txt
+[7.109s] writing top-level names to ../../../build/tm_image/tm_image.egg-info/top_level.txt
+[7.110s] writing manifest file '../../../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[7.117s] reading manifest file '../../../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[7.120s] writing manifest file '../../../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[7.120s] running build
+[7.120s] running build_py
+[7.121s] creating /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build
+[7.121s] creating /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib
+[7.121s] creating /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image
+[7.121s] copying tm_image/get_status.py -> /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image
+[7.176s] copying tm_image/translate_jason_to_list.py -> /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image
+[7.194s] copying tm_image/image_pub.py -> /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image
+[7.218s] copying tm_image/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image
+[7.223s] running install
+[7.226s] running install_lib
+[7.235s] creating /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image
+[7.244s] copying /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image/get_status.py -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image
+[7.245s] copying /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image/translate_jason_to_list.py -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image
+[7.249s] copying /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image/image_pub.py -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image
+[7.251s] copying /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build/lib/tm_image/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image
+[7.254s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image/get_status.py to get_status.cpython-310.pyc
+[7.277s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image/translate_jason_to_list.py to translate_jason_to_list.cpython-310.pyc
+[7.301s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image/image_pub.py to image_pub.cpython-310.pyc
+[7.321s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image/__init__.py to __init__.cpython-310.pyc
+[7.322s] running install_data
+[7.322s] creating /home/akhil/Downloads/omron_moma_ros2/install/tm_image/share/ament_index
+[7.322s] creating /home/akhil/Downloads/omron_moma_ros2/install/tm_image/share/ament_index/resource_index
+[7.322s] creating /home/akhil/Downloads/omron_moma_ros2/install/tm_image/share/ament_index/resource_index/packages
+[7.323s] copying resource/tm_image -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/share/ament_index/resource_index/packages
+[7.332s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/install/tm_image/share/tm_image
+[7.333s] running install_egg_info
+[7.359s] Copying ../../../build/tm_image/tm_image.egg-info to /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages/tm_image-2.0.0-py3.10.egg-info
+[7.362s] running install_scripts
+[7.658s] Installing image_talker script to /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/tm_image
+[7.659s] Installing status_talker script to /home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/tm_image
+[7.676s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/build/tm_image/install.log'
+[8.323s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_image' returned '0': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/tm_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/tm_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/tm_image build --build-base /home/akhil/Downloads/omron_moma_ros2/build/tm_image/build install --record /home/akhil/Downloads/omron_moma_ros2/build/tm_image/install.log --single-version-externally-managed install_data

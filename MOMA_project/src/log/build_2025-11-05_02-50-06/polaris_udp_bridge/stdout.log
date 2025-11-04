@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/PKG-INFO
+writing dependency_links to ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/dependency_links.txt
+writing entry points to ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/entry_points.txt
+writing requirements to ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/requires.txt
+writing top-level names to ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/top_level.txt
+reading manifest file '../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/SOURCES.txt'
+writing manifest file '../build/polaris_udp_bridge/polaris_udp_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+copying polaris_udp_bridge/bridge_node.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/polaris_udp_bridge/build/lib/polaris_udp_bridge
+running install
+running install_lib
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/polaris_udp_bridge/build/lib/polaris_udp_bridge/bridge_node.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/polaris_udp_bridge/lib/python3.10/site-packages/polaris_udp_bridge
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/polaris_udp_bridge/lib/python3.10/site-packages/polaris_udp_bridge/bridge_node.py to bridge_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/polaris_udp_bridge/lib/python3.10/site-packages/polaris_udp_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/polaris_udp_bridge/polaris_udp_bridge.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/polaris_udp_bridge/lib/python3.10/site-packages/polaris_udp_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/polaris_udp_bridge/lib/polaris_udp_bridge
+writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/polaris_udp_bridge/install.log'

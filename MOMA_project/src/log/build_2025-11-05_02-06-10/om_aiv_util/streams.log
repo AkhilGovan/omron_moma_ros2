@@ -1,0 +1,59 @@
+[2.514s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/om_aiv_util': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/om_aiv_util build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/install.log --single-version-externally-managed install_data
+[3.196s] running egg_info
+[3.198s] creating ../build/om_aiv_util/om_aiv_util.egg-info
+[3.202s] writing ../build/om_aiv_util/om_aiv_util.egg-info/PKG-INFO
+[3.202s] writing dependency_links to ../build/om_aiv_util/om_aiv_util.egg-info/dependency_links.txt
+[3.202s] writing entry points to ../build/om_aiv_util/om_aiv_util.egg-info/entry_points.txt
+[3.202s] writing requirements to ../build/om_aiv_util/om_aiv_util.egg-info/requires.txt
+[3.202s] writing top-level names to ../build/om_aiv_util/om_aiv_util.egg-info/top_level.txt
+[3.203s] writing manifest file '../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[3.208s] reading manifest file '../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[3.210s] writing manifest file '../build/om_aiv_util/om_aiv_util.egg-info/SOURCES.txt'
+[3.211s] running build
+[3.211s] running build_py
+[3.211s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build
+[3.212s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib
+[3.212s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.212s] copying om_aiv_util/socket_listener.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.219s] copying om_aiv_util/ld_states_publisher.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.220s] copying om_aiv_util/socketconnection_class.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.220s] copying om_aiv_util/socket_taskmaster.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.223s] copying om_aiv_util/socket_driver.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.223s] copying om_aiv_util/parser.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.223s] copying om_aiv_util/arcl_api_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.224s] copying om_aiv_util/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util
+[3.225s] running install
+[3.226s] running install_lib
+[3.233s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.234s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/socket_listener.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.234s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/ld_states_publisher.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.234s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/socketconnection_class.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.234s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/socket_taskmaster.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.234s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/socket_driver.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.235s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/parser.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.235s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/arcl_api_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.235s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build/lib/om_aiv_util/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util
+[3.235s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/socket_listener.py to socket_listener.cpython-310.pyc
+[3.239s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/ld_states_publisher.py to ld_states_publisher.cpython-310.pyc
+[3.242s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/socketconnection_class.py to socketconnection_class.cpython-310.pyc
+[3.244s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/socket_taskmaster.py to socket_taskmaster.cpython-310.pyc
+[3.247s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/socket_driver.py to socket_driver.cpython-310.pyc
+[3.250s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/parser.py to parser.cpython-310.pyc
+[3.254s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/arcl_api_server.py to arcl_api_server.cpython-310.pyc
+[3.254s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util/__init__.py to __init__.cpython-310.pyc
+[3.254s] running install_data
+[3.254s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/ament_index
+[3.255s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/ament_index/resource_index
+[3.255s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/ament_index/resource_index/packages
+[3.255s] copying resource/om_aiv_util -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/ament_index/resource_index/packages
+[3.255s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/om_aiv_util
+[3.255s] copying launch/server.launch.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/om_aiv_util
+[3.261s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/om_aiv_util/config
+[3.261s] copying config/main_param.yaml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/share/om_aiv_util/config
+[3.262s] running install_egg_info
+[3.274s] Copying ../build/om_aiv_util/om_aiv_util.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages/om_aiv_util-0.0.0-py3.10.egg-info
+[3.274s] running install_scripts
+[3.342s] Installing arcl_api_server script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/om_aiv_util
+[3.342s] Installing ld_states_publisher script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/om_aiv_util
+[3.342s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/install.log'
+[3.505s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/om_aiv_util' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_util/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/om_aiv_util build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_util/install.log --single-version-externally-managed install_data

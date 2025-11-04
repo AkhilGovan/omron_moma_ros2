@@ -1,0 +1,37 @@
+[3.867s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/demo_package': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/demo_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_package build --build-base /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build install --record /home/akhil/Downloads/omron_moma_ros2/build/demo_package/install.log --single-version-externally-managed install_data
+[4.602s] running egg_info
+[4.604s] creating ../../../build/demo_package/demo_package.egg-info
+[4.605s] writing ../../../build/demo_package/demo_package.egg-info/PKG-INFO
+[4.605s] writing dependency_links to ../../../build/demo_package/demo_package.egg-info/dependency_links.txt
+[4.606s] writing entry points to ../../../build/demo_package/demo_package.egg-info/entry_points.txt
+[4.606s] writing requirements to ../../../build/demo_package/demo_package.egg-info/requires.txt
+[4.606s] writing top-level names to ../../../build/demo_package/demo_package.egg-info/top_level.txt
+[4.607s] writing manifest file '../../../build/demo_package/demo_package.egg-info/SOURCES.txt'
+[4.612s] reading manifest file '../../../build/demo_package/demo_package.egg-info/SOURCES.txt'
+[4.614s] writing manifest file '../../../build/demo_package/demo_package.egg-info/SOURCES.txt'
+[4.614s] running build
+[4.614s] running build_py
+[4.615s] creating /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build
+[4.615s] creating /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib
+[4.615s] creating /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib/demo_package
+[4.616s] copying demo_package/demo_routine.py -> /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib/demo_package
+[4.619s] copying demo_package/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib/demo_package
+[4.619s] running install
+[4.620s] running install_lib
+[4.624s] creating /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package
+[4.624s] copying /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib/demo_package/demo_routine.py -> /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package
+[4.624s] copying /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build/lib/demo_package/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package
+[4.626s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package/demo_routine.py to demo_routine.cpython-310.pyc
+[4.630s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package/__init__.py to __init__.cpython-310.pyc
+[4.630s] running install_data
+[4.630s] creating /home/akhil/Downloads/omron_moma_ros2/install/demo_package/share/ament_index
+[4.630s] creating /home/akhil/Downloads/omron_moma_ros2/install/demo_package/share/ament_index/resource_index
+[4.631s] creating /home/akhil/Downloads/omron_moma_ros2/install/demo_package/share/ament_index/resource_index/packages
+[4.631s] copying resource/demo_package -> /home/akhil/Downloads/omron_moma_ros2/install/demo_package/share/ament_index/resource_index/packages
+[4.631s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/install/demo_package/share/demo_package
+[4.631s] running install_egg_info
+[4.640s] Copying ../../../build/demo_package/demo_package.egg-info to /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages/demo_package-0.0.0-py3.10.egg-info
+[4.642s] running install_scripts
+[4.709s] Installing demo_routine script to /home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/demo_package
+[4.709s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/build/demo_package/install.log'
+[4.829s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/demo_package' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/demo_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/demo_package/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_package build --build-base /home/akhil/Downloads/omron_moma_ros2/build/demo_package/build install --record /home/akhil/Downloads/omron_moma_ros2/build/demo_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+client = wireless.client:main
+server = wireless.server:main
+

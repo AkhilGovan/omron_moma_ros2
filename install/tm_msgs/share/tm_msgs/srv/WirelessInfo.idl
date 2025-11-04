@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tm_msgs/srv/WirelessInfo.srv
+// generated code does not contain a copyright notice
+
+
+module tm_msgs {
+  module srv {
+    struct WirelessInfo_Request {
+      string command;
+
+      string param1;
+    };
+    struct WirelessInfo_Response {
+      string status;
+    };
+  };
+};

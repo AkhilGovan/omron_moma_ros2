@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/amr_arcl_interface/amr_arcl_interface.egg-info
+writing ../build/amr_arcl_interface/amr_arcl_interface.egg-info/PKG-INFO
+writing dependency_links to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/dependency_links.txt
+writing entry points to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/entry_points.txt
+writing requirements to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/requires.txt
+writing top-level names to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/top_level.txt
+writing manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+reading manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+writing manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+copying amr_arcl_interface/server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+copying amr_arcl_interface/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+copying amr_arcl_interface/client.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+running install
+running install_lib
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/client.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/server.py to server.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/client.py to client.cpython-310.pyc
+running install_data
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index/packages
+copying resource/amr_arcl_interface -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/amr_arcl_interface
+running install_egg_info
+Copying ../build/amr_arcl_interface/amr_arcl_interface.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/amr_arcl_interface
+Installing server script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/amr_arcl_interface
+writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/install.log'

@@ -1,0 +1,10 @@
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/uninstall.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/image_sub_uninstall.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/sub_img.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/test.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/edit_cache.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/rebuild_cache.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/list_install_components.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/install.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/install/local.dir
+/home/akhil/Downloads/omron_moma_ros2/build/image_sub/CMakeFiles/install/strip.dir

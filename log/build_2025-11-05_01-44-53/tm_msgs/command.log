@@ -1,0 +1,6 @@
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_msgs -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/tm_msgs
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_msgs -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/tm_msgs
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/tm_msgs -- -j6 -l6
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/tm_msgs -- -j6 -l6
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/tm_msgs
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/tm_msgs

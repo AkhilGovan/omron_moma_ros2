@@ -1,0 +1,55 @@
+[3.772s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/camera': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/lib:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/local/lib/python3.10/dist-packages:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera build --build-base /home/akhil/Downloads/omron_moma_ros2/build/camera/build install --record /home/akhil/Downloads/omron_moma_ros2/build/camera/install.log --single-version-externally-managed install_data
+[4.450s] running egg_info
+[4.451s] creating ../../../build/camera/camera.egg-info
+[4.452s] writing ../../../build/camera/camera.egg-info/PKG-INFO
+[4.453s] writing dependency_links to ../../../build/camera/camera.egg-info/dependency_links.txt
+[4.453s] writing entry points to ../../../build/camera/camera.egg-info/entry_points.txt
+[4.454s] writing requirements to ../../../build/camera/camera.egg-info/requires.txt
+[4.454s] writing top-level names to ../../../build/camera/camera.egg-info/top_level.txt
+[4.454s] writing manifest file '../../../build/camera/camera.egg-info/SOURCES.txt'
+[4.464s] reading manifest file '../../../build/camera/camera.egg-info/SOURCES.txt'
+[4.467s] writing manifest file '../../../build/camera/camera.egg-info/SOURCES.txt'
+[4.468s] running build
+[4.468s] running build_py
+[4.469s] creating /home/akhil/Downloads/omron_moma_ros2/build/camera/build
+[4.469s] creating /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib
+[4.469s] creating /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.472s] copying camera/detection_utils.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.478s] copying camera/visualisation.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.479s] copying camera/camera_client.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.480s] copying camera/camera_node.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.481s] copying camera/tf_utils.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.483s] copying camera/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera
+[4.484s] running install
+[4.485s] running install_lib
+[4.489s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.489s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/detection_utils.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.490s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/visualisation.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.490s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/camera_client.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.490s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/camera_node.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.491s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/tf_utils.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.491s] copying /home/akhil/Downloads/omron_moma_ros2/build/camera/build/lib/camera/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera
+[4.495s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/detection_utils.py to detection_utils.cpython-310.pyc
+[4.498s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/visualisation.py to visualisation.cpython-310.pyc
+[4.500s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/camera_client.py to camera_client.cpython-310.pyc
+[4.502s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/camera_node.py to camera_node.cpython-310.pyc
+[4.504s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/tf_utils.py to tf_utils.cpython-310.pyc
+[4.505s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[4.506s] running install_data
+[4.506s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/share/ament_index
+[4.506s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/share/ament_index/resource_index
+[4.507s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/share/ament_index/resource_index/packages
+[4.507s] copying resource/camera -> /home/akhil/Downloads/omron_moma_ros2/install/camera/share/ament_index/resource_index/packages
+[4.507s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/install/camera/share/camera
+[4.507s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/share/camera/launch
+[4.507s] creating /home/akhil/Downloads/omron_moma_ros2/install/camera/share/camera/models
+[4.508s] copying models/yolo11n.pt -> /home/akhil/Downloads/omron_moma_ros2/install/camera/share/camera/models
+[4.637s] copying models/yolo11m.pt -> /home/akhil/Downloads/omron_moma_ros2/install/camera/share/camera/models
+[5.115s] running install_egg_info
+[5.122s] Copying ../../../build/camera/camera.egg-info to /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[5.125s] running install_scripts
+[5.203s] Installing camera_client script to /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/camera
+[5.204s] Installing camera_node script to /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/camera
+[5.204s] Installing camera_server script to /home/akhil/Downloads/omron_moma_ros2/install/camera/lib/camera
+[5.205s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/build/camera/install.log'
+[6.392s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/camera' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/lib:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/install/camera/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg/local/lib/python3.10/dist-packages:/home/akhil/Downloads/omron_moma_ros2/install/camera_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera build --build-base /home/akhil/Downloads/omron_moma_ros2/build/camera/build install --record /home/akhil/Downloads/omron_moma_ros2/build/camera/install.log --single-version-externally-managed install_data

@@ -1,0 +1,6 @@
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/om_aiv_msg -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/om_aiv_msg -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/om_aiv_msg
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg -- -j6 -l6
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg -- -j6 -l6
+Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg
+Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg

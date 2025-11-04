@@ -1,0 +1,17 @@
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/lib/tm_inspect/robot_ui
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/launch/tm_gui.launch.py
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/ament_index/resource_index/package_run_dependencies/tm_inspect
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/ament_index/resource_index/parent_prefix_path/tm_inspect
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/environment/ament_prefix_path.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/environment/ament_prefix_path.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/environment/path.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/environment/path.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/local_setup.bash
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/local_setup.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/local_setup.zsh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/local_setup.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/package.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/ament_index/resource_index/packages/tm_inspect
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/cmake/tm_inspectConfig.cmake
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/cmake/tm_inspectConfig-version.cmake
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_inspect/share/tm_inspect/package.xml

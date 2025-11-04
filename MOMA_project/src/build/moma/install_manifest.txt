@@ -1,0 +1,17 @@
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/launch/__pycache__/moma_comms.launch.cpython-310.pyc
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/launch/moma_comms.launch.py
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/ament_index/resource_index/package_run_dependencies/moma
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/ament_index/resource_index/parent_prefix_path/moma
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/environment/ament_prefix_path.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/environment/ament_prefix_path.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/environment/path.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/environment/path.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/local_setup.bash
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/local_setup.sh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/local_setup.zsh
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/local_setup.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/package.dsv
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/ament_index/resource_index/packages/moma
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/cmake/momaConfig.cmake
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/cmake/momaConfig-version.cmake
+/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma/share/moma/package.xml

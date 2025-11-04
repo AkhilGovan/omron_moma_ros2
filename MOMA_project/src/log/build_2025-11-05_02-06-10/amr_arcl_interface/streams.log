@@ -1,0 +1,41 @@
+[4.845s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/amr_arcl_interface': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/amr_arcl_interface build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/install.log --single-version-externally-managed install_data
+[6.097s] running egg_info
+[6.098s] creating ../build/amr_arcl_interface/amr_arcl_interface.egg-info
+[6.098s] writing ../build/amr_arcl_interface/amr_arcl_interface.egg-info/PKG-INFO
+[6.098s] writing dependency_links to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/dependency_links.txt
+[6.099s] writing entry points to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/entry_points.txt
+[6.099s] writing requirements to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/requires.txt
+[6.099s] writing top-level names to ../build/amr_arcl_interface/amr_arcl_interface.egg-info/top_level.txt
+[6.099s] writing manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+[6.099s] reading manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+[6.099s] writing manifest file '../build/amr_arcl_interface/amr_arcl_interface.egg-info/SOURCES.txt'
+[6.099s] running build
+[6.099s] running build_py
+[6.100s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build
+[6.100s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib
+[6.100s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+[6.100s] copying amr_arcl_interface/server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+[6.100s] copying amr_arcl_interface/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+[6.100s] copying amr_arcl_interface/client.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface
+[6.100s] running install
+[6.101s] running install_lib
+[6.101s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+[6.101s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+[6.101s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+[6.101s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build/lib/amr_arcl_interface/client.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface
+[6.101s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/server.py to server.cpython-310.pyc
+[6.101s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/__init__.py to __init__.cpython-310.pyc
+[6.102s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface/client.py to client.cpython-310.pyc
+[6.102s] running install_data
+[6.113s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index
+[6.113s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index
+[6.114s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index/packages
+[6.114s] copying resource/amr_arcl_interface -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/ament_index/resource_index/packages
+[6.114s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/share/amr_arcl_interface
+[6.114s] running install_egg_info
+[6.114s] Copying ../build/amr_arcl_interface/amr_arcl_interface.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages/amr_arcl_interface-0.0.0-py3.10.egg-info
+[6.114s] running install_scripts
+[6.116s] Installing client script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/amr_arcl_interface
+[6.116s] Installing server script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/amr_arcl_interface
+[6.121s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/install.log'
+[7.126s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/amr_arcl_interface' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_arcl_interface/lib/python3.10/site-packages:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/amr_arcl_interface build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_arcl_interface/install.log --single-version-externally-managed install_data

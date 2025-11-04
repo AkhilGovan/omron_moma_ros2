@@ -1,0 +1,6 @@
+setup.py
+camera_interface/__init__.py
+camera_interface.egg-info/PKG-INFO
+camera_interface.egg-info/SOURCES.txt
+camera_interface.egg-info/dependency_links.txt
+camera_interface.egg-info/top_level.txt

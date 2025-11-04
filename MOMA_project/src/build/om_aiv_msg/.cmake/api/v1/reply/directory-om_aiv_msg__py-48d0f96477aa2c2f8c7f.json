@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "om_aiv_msg__py",
+		"source" : "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_msg/om_aiv_msg__py"
+	}
+}

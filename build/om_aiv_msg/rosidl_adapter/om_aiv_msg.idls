@@ -1,0 +1,6 @@
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:msg/Location.idl
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:msg/Status.idl
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:srv/ArclApi.idl
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:srv/ArclListen.idl
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:srv/AmrCmd.idl
+/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/rosidl_adapter/om_aiv_msg:action/Action.idl

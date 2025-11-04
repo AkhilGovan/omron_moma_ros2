@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-abfb33545fd9df116b30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "om_aiv_msg__py",
+					"jsonFile" : "directory-om_aiv_msg__py-cb1e38be840067e661fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg/om_aiv_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "om_aiv_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_om_aiv_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_om_aiv_msg_egg-6b364914bc0174912fca.json",
+					"name" : "ament_cmake_python_build_om_aiv_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_om_aiv_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_om_aiv_msg-eceed8f082b3c6dc10e3.json",
+					"name" : "ament_cmake_python_copy_om_aiv_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg-f1656c7c4b146ee2e8be.json",
+					"name" : "om_aiv_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__cpp-e53a1b5957af8697842e.json",
+					"name" : "om_aiv_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "om_aiv_msg__py::@99de5bebe2529a09c151",
+					"jsonFile" : "target-om_aiv_msg__py-e2da4943d614a90d096e.json",
+					"name" : "om_aiv_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_generator_c-aa1e89753be9033ba30a.json",
+					"name" : "om_aiv_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_generator_py-f2ac16056ad9cf6dca41.json",
+					"name" : "om_aiv_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_c-66562c58ed6634f03aff.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_c__pyext-4baedd09b95588f4a49e.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_cpp-c62eae5fca2a22052f5b.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_fastrtps_c-93bb5b60c79b36c0116a.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_fastrtps_c__pyext-b9f11a69bd0d97fa9f13.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_fastrtps_cpp-d1e2c46c53b47b036896.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_introspection_c-0839600ed6d93ae5b04f.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_introspection_c__pyext-9e204afa4dd56c077159.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg__rosidl_typesupport_introspection_cpp-35263eb2dcbee482dc5b.json",
+					"name" : "om_aiv_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "om_aiv_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-om_aiv_msg_uninstall-a9381a1aa57e445924a8.json",
+					"name" : "om_aiv_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d9f7f8de0fa2e2b5cefe.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akhil/Downloads/omron_moma_ros2/build/om_aiv_msg",
+		"source" : "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/om_aiv_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

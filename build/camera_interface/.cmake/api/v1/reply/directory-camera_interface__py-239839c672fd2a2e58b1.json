@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "camera_interface__py",
+		"source" : "/home/akhil/Downloads/omron_moma_ros2/build/camera_interface/camera_interface__py"
+	}
+}

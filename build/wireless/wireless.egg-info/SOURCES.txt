@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../../build/wireless/wireless.egg-info/PKG-INFO
+../../../../build/wireless/wireless.egg-info/SOURCES.txt
+../../../../build/wireless/wireless.egg-info/dependency_links.txt
+../../../../build/wireless/wireless.egg-info/entry_points.txt
+../../../../build/wireless/wireless.egg-info/requires.txt
+../../../../build/wireless/wireless.egg-info/top_level.txt
+../../../../build/wireless/wireless.egg-info/zip-safe
+resource/wireless
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+wireless/__init__.py
+wireless/client.py
+wireless/server.py

@@ -1,0 +1,44 @@
+[4.289s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_image': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tm_image build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/install.log --single-version-externally-managed install_data
+[6.926s] running egg_info
+[6.939s] creating ../build/tm_image/tm_image.egg-info
+[6.939s] writing ../build/tm_image/tm_image.egg-info/PKG-INFO
+[6.940s] writing dependency_links to ../build/tm_image/tm_image.egg-info/dependency_links.txt
+[6.940s] writing entry points to ../build/tm_image/tm_image.egg-info/entry_points.txt
+[6.941s] writing requirements to ../build/tm_image/tm_image.egg-info/requires.txt
+[6.941s] writing top-level names to ../build/tm_image/tm_image.egg-info/top_level.txt
+[6.942s] writing manifest file '../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[6.948s] reading manifest file '../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[6.950s] writing manifest file '../build/tm_image/tm_image.egg-info/SOURCES.txt'
+[6.950s] running build
+[6.950s] running build_py
+[6.951s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build
+[6.951s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib
+[6.951s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image
+[6.951s] copying tm_image/get_status.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image
+[7.384s] copying tm_image/translate_jason_to_list.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image
+[7.659s] copying tm_image/image_pub.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image
+[8.308s] copying tm_image/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image
+[8.308s] running install
+[8.310s] running install_lib
+[8.315s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image
+[8.315s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image/get_status.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image
+[8.320s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image/translate_jason_to_list.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image
+[8.320s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image/image_pub.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image
+[8.334s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build/lib/tm_image/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image
+[8.340s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image/get_status.py to get_status.cpython-310.pyc
+[8.344s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image/translate_jason_to_list.py to translate_jason_to_list.cpython-310.pyc
+[8.356s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image/image_pub.py to image_pub.cpython-310.pyc
+[8.362s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image/__init__.py to __init__.cpython-310.pyc
+[8.364s] running install_data
+[8.368s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/share/ament_index
+[8.368s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/share/ament_index/resource_index
+[8.369s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/share/ament_index/resource_index/packages
+[8.369s] copying resource/tm_image -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/share/ament_index/resource_index/packages
+[8.369s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/share/tm_image
+[8.369s] running install_egg_info
+[8.377s] Copying ../build/tm_image/tm_image.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages/tm_image-2.0.0-py3.10.egg-info
+[8.396s] running install_scripts
+[8.483s] Installing image_talker script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/tm_image
+[8.483s] Installing status_talker script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/tm_image
+[8.485s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/install.log'
+[8.682s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_image' returned '0': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_image/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/tm_image build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_image/install.log --single-version-externally-managed install_data

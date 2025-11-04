@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cfd10d14448db9cb5a78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "camera_interface__py",
+					"jsonFile" : "directory-camera_interface__py-a8beee3123dbcee9d914.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/camera_interface/camera_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "camera_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_camera_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_camera_interface_egg-6e55a62bb18720617af5.json",
+					"name" : "ament_cmake_python_build_camera_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_camera_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_camera_interface-4f00a635df62d86197c5.json",
+					"name" : "ament_cmake_python_copy_camera_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface-efb46f9313a8b608fa24.json",
+					"name" : "camera_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__cpp-c64c1c4fe129b597a8c1.json",
+					"name" : "camera_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "camera_interface__py::@8e1791b2fc1494f91d48",
+					"jsonFile" : "target-camera_interface__py-a0d608ffe6886de47888.json",
+					"name" : "camera_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_generator_c-cf5c8a9f99ab3191a2b4.json",
+					"name" : "camera_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_generator_py-277dc8a44cf241530725.json",
+					"name" : "camera_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_c-e34889b39189b3819caf.json",
+					"name" : "camera_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_c__pyext-766297aaba3fd35f7290.json",
+					"name" : "camera_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_cpp-cd9a82ce769707641ec9.json",
+					"name" : "camera_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_fastrtps_c-36de51ef6e52ceadce81.json",
+					"name" : "camera_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_fastrtps_c__pyext-7b87aac128568ce578fb.json",
+					"name" : "camera_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_fastrtps_cpp-142920c59e234a3b51fd.json",
+					"name" : "camera_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_introspection_c-3266bdf789745852b9f2.json",
+					"name" : "camera_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_introspection_c__pyext-dff273b08b4baab0539a.json",
+					"name" : "camera_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface__rosidl_typesupport_introspection_cpp-87d441178b1ac865fc7d.json",
+					"name" : "camera_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "camera_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-camera_interface_uninstall-efb376662a7498a874af.json",
+					"name" : "camera_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-007a94334dbff556d7a8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/camera_interface",
+		"source" : "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/camera_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

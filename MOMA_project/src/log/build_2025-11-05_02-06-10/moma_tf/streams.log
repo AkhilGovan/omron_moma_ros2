@@ -1,0 +1,37 @@
+[2.931s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/moma_tf': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/moma_tf build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/install.log --single-version-externally-managed install_data
+[4.323s] running egg_info
+[4.337s] creating ../build/moma_tf/moma_tf.egg-info
+[4.338s] writing ../build/moma_tf/moma_tf.egg-info/PKG-INFO
+[4.340s] writing dependency_links to ../build/moma_tf/moma_tf.egg-info/dependency_links.txt
+[4.346s] writing entry points to ../build/moma_tf/moma_tf.egg-info/entry_points.txt
+[4.346s] writing requirements to ../build/moma_tf/moma_tf.egg-info/requires.txt
+[4.346s] writing top-level names to ../build/moma_tf/moma_tf.egg-info/top_level.txt
+[4.347s] writing manifest file '../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+[4.354s] reading manifest file '../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+[4.355s] writing manifest file '../build/moma_tf/moma_tf.egg-info/SOURCES.txt'
+[4.369s] running build
+[4.370s] running build_py
+[4.370s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build
+[4.370s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib
+[4.371s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib/moma_tf
+[4.371s] copying moma_tf/publish_frames.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib/moma_tf
+[4.373s] copying moma_tf/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib/moma_tf
+[4.373s] running install
+[4.374s] running install_lib
+[4.377s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf
+[4.377s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib/moma_tf/publish_frames.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf
+[4.378s] copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build/lib/moma_tf/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf
+[4.379s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf/publish_frames.py to publish_frames.cpython-310.pyc
+[4.381s] byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf/__init__.py to __init__.cpython-310.pyc
+[4.381s] running install_data
+[4.381s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/share/ament_index
+[4.382s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/share/ament_index/resource_index
+[4.382s] creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/share/ament_index/resource_index/packages
+[4.382s] copying resource/moma_tf -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/share/ament_index/resource_index/packages
+[4.382s] copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/share/moma_tf
+[4.382s] running install_egg_info
+[4.411s] Copying ../build/moma_tf/moma_tf.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages/moma_tf-0.0.0-py3.10.egg-info
+[4.412s] running install_scripts
+[4.592s] Installing publish_frames script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/moma_tf
+[4.593s] writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/install.log'
+[4.949s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/moma_tf' returned '0': PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/moma_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/moma_tf build --build-base /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/build install --record /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/moma_tf/install.log --single-version-externally-managed install_data

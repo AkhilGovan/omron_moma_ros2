@@ -1,0 +1,200 @@
+[0.057s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_description -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description
+[0.266s] -- The C compiler identification is GNU 11.4.0
+[0.444s] -- The CXX compiler identification is GNU 11.4.0
+[0.464s] -- Detecting C compiler ABI info
+[0.767s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.811s] -- Detecting C compile features
+[0.812s] -- Detecting C compile features - done
+[0.819s] -- Detecting CXX compiler ABI info
+[1.082s] -- Detecting CXX compiler ABI info - done
+[1.100s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.102s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.127s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.696s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.239s] -- Configuring done
+[2.269s] -- Generating done
+[2.281s] -- Build files have been written to: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description
+[2.310s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm_description -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description
+[2.311s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description -- -j6 -l6
+[2.563s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description -- -j6 -l6
+[2.598s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description
+[2.740s] -- Install configuration: ""
+[2.740s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/launch
+[2.740s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/launch/view_robot.launch.py
+[2.740s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes
+[2.740s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s
+[2.741s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision
+[2.741s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-base_c.stl
+[2.741s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-j5_c.stl
+[2.741s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-j6_c.stl
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-a1_c.stl
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-a2_c.stl
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/collision/tm14s-j1_c.stl
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-a1.mtl
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j5.obj
+[2.742s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j1.mtl
+[2.743s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-a2.obj
+[2.824s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j1.obj
+[2.853s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-a1.obj
+[2.925s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j6.mtl
+[2.925s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j5.mtl
+[2.926s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-base.mtl
+[2.926s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-j6.obj
+[2.984s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-a2.mtl
+[2.985s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm14s/visual/tm14s-base.obj
+[3.043s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s
+[3.061s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision
+[3.062s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-a1_c.stl
+[3.067s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-j5_c.stl
+[3.073s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-io_c.stl
+[3.079s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-a2_c.stl
+[3.084s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-base_c.stl
+[3.086s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-iox_c.stl
+[3.090s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-j6_c.stl
+[3.094s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/collision/tm5s-j1_c.stl
+[3.100s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual
+[3.100s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-io.obj
+[3.232s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j5.mtl
+[3.233s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j1.obj
+[3.293s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-a1.obj
+[3.379s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-io.mtl
+[3.387s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j5.obj
+[3.442s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-base.mtl
+[3.445s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-a1.mtl
+[3.446s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j6.mtl
+[3.448s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-a2.mtl
+[3.451s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j1.mtl
+[3.452s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-iox.obj
+[3.525s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-a2.obj
+[3.593s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-base.obj
+[3.617s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-iox.mtl
+[3.618s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm5s/visual/tm5s-j6.obj
+[3.674s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s
+[3.674s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision
+[3.674s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-a1_c.stl
+[3.679s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-base_c.stl
+[3.682s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-io_c.stl
+[3.691s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-a2_c.stl
+[3.693s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-j4_c.stl
+[3.699s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-j6_c.stl
+[3.703s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/collision/tm25s-j1_c.stl
+[3.709s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual
+[3.709s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-a1.obj
+[3.786s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j4.obj
+[3.843s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-base.mtl
+[3.844s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j1.mtl
+[3.845s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j6.mtl
+[3.846s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-io.mtl
+[3.846s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-a2.mtl
+[3.847s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-a2.obj
+[3.902s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j1.obj
+[3.972s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-a1.mtl
+[3.972s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-io.obj
+[4.099s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-base.obj
+[4.129s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j6.obj
+[4.192s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm25s/visual/tm25s-j4.mtl
+[4.193s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s
+[4.193s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision
+[4.193s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-io_c.stl
+[4.212s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-j1_c.stl
+[4.219s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-base_c.stl
+[4.220s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-a1_c.stl
+[4.225s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-j6_c.stl
+[4.231s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-j5_c.stl
+[4.237s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/collision/tm7s-a2_c.stl
+[4.242s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual
+[4.242s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j5.obj
+[4.302s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-io.mtl
+[4.302s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-base.mtl
+[4.304s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j5.mtl
+[4.304s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j1.obj
+[4.367s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-a2.obj
+[4.430s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j1.mtl
+[4.430s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-base.obj
+[4.455s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-a1.obj
+[4.546s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-a1.mtl
+[4.547s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-a2.mtl
+[4.547s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j6.obj
+[4.620s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-j6.mtl
+[4.621s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm7s/visual/tm7s-io.obj
+[4.746s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s
+[4.746s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision
+[4.747s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-a2_c.stl
+[4.748s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-j1-a_c.stl
+[4.756s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-io_c.stl
+[4.765s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-a1_c.stl
+[4.770s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-j6_c.stl
+[4.774s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-tbb_a_c.stl
+[4.778s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/collision/tm12s-j5_c.stl
+[4.783s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual
+[4.784s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-tbb_a.mtl
+[4.784s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j6.obj
+[4.825s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j5.mtl
+[4.827s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j1-a.obj
+[4.882s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-a1.obj
+[4.972s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j6.mtl
+[4.973s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-a2.obj
+[5.032s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-a1.mtl
+[5.033s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-tbb_a.obj
+[5.060s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-io.obj
+[5.170s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j1-a.mtl
+[5.172s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-io.mtl
+[5.172s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-a2.mtl
+[5.172s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm12s/visual/tm12s-j5.obj
+[5.208s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s
+[5.208s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/collision
+[5.209s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/collision/tm30s-arm2_c.stl
+[5.211s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/collision/tm30s-arm1_c.stl
+[5.215s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual
+[5.215s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm2.mtl
+[5.216s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm1.obj
+[5.315s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm1.mtl
+[5.315s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm2.stl
+[5.332s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm1.stl
+[5.365s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/meshes/tm30s/visual/tm30s-arm2.obj
+[5.404s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/rviz
+[5.404s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/rviz/view_robot.rviz
+[5.405s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro
+[5.405s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm12sx.urdf.xacro
+[5.405s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm14sx.urdf.xacro
+[5.406s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm5s.urdf.xacro
+[5.407s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.materials.xacro
+[5.407s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm25s-nominal.urdf.xacro
+[5.408s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.transmission.xacro
+[5.409s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm14sx-nominal.urdf.xacro
+[5.410s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm5s-nominal.urdf.xacro
+[5.411s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.inertial.xacro
+[5.411s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm25s.urdf.xacro
+[5.412s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm5sx-nominal.urdf.xacro
+[5.413s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm7s.urdf.xacro
+[5.414s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm12s.urdf.xacro
+[5.414s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm12sx-nominal.urdf.xacro
+[5.415s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm7s-nominal.urdf.xacro
+[5.416s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm14s.urdf.xacro
+[5.417s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm7sx-nominal.urdf.xacro
+[5.418s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm30s-nominal.urdf.xacro
+[5.419s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm7sx.urdf.xacro
+[5.419s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.gazebo.xacro
+[5.420s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm30s.urdf.xacro
+[5.421s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/tm5sx.urdf.xacro
+[5.422s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm14s-nominal.urdf.xacro
+[5.422s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/xacro/macro.tm12s-nominal.urdf.xacro
+[5.424s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/ament_index/resource_index/package_run_dependencies/tm_description
+[5.424s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/ament_index/resource_index/parent_prefix_path/tm_description
+[5.425s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/environment/ament_prefix_path.sh
+[5.425s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/environment/ament_prefix_path.dsv
+[5.425s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/environment/path.sh
+[5.426s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/environment/path.dsv
+[5.426s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/local_setup.bash
+[5.426s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/local_setup.sh
+[5.427s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/local_setup.zsh
+[5.427s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/local_setup.dsv
+[5.427s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/package.dsv
+[5.428s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/ament_index/resource_index/packages/tm_description
+[5.428s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/cmake/tm_descriptionConfig.cmake
+[5.428s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/cmake/tm_descriptionConfig-version.cmake
+[5.429s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/tm_description/share/tm_description/package.xml
+[5.450s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description

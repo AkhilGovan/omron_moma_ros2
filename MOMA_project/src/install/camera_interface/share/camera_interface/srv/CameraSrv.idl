@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from camera_interface/srv/CameraSrv.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module camera_interface {
+  module srv {
+    struct CameraSrv_Request {
+      @verbatim (language="comment", text=
+        "\"take_photo\" or other future commands")
+      string command;
+
+      @verbatim (language="comment", text=
+        "YOLO class ID (64 for mouse, etc.)")
+      int32 identifier;
+    };
+    struct CameraSrv_Response {
+      @verbatim (language="comment", text=
+        "Array of detected object positions")
+      sequence<geometry_msgs::msg::Point> coordinates;
+
+      @verbatim (language="comment", text=
+        "Whether detection was successful")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Status message")
+      string message;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/moma/local_setup.bash
+source;share/moma/local_setup.dsv
+source;share/moma/local_setup.sh
+source;share/moma/local_setup.zsh

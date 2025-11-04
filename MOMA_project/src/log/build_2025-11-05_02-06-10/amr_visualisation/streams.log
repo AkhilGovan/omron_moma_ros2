@@ -1,0 +1,112 @@
+[1.083s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/amr_visualisation -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation
+[1.410s] -- The C compiler identification is GNU 11.4.0
+[1.734s] -- The CXX compiler identification is GNU 11.4.0
+[1.766s] -- Detecting C compiler ABI info
+[2.163s] -- Detecting C compiler ABI info - done
+[2.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.200s] -- Detecting C compile features
+[2.201s] -- Detecting C compile features - done
+[2.218s] -- Detecting CXX compiler ABI info
+[2.581s] -- Detecting CXX compiler ABI info - done
+[2.611s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.611s] -- Detecting CXX compile features
+[2.613s] -- Detecting CXX compile features - done
+[2.621s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.251s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.559s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.675s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.688s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.710s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.785s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.902s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.913s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.302s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.405s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.537s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.561s] -- Looking for pthread.h
+[5.039s] -- Looking for pthread.h - found
+[5.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.578s] -- Found Threads: TRUE  
+[5.830s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.920s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[6.143s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.256s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.497s] -- Found om_aiv_msg: 0.0.0 (/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/share/om_aiv_msg/cmake)
+[6.541s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.626s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.993s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.000s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.008s] -- Configured cppcheck include dirs: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/amr_visualisation/include
+[7.009s] -- Configured cppcheck exclude dirs and/or files: 
+[7.012s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.013s] -- Configured cpplint exclude dirs and/or files: 
+[7.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.017s] -- Added test 'lint_cmake' to check CMake code style
+[7.018s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.022s] -- Added test 'uncrustify' to check C / C++ code style
+[7.022s] -- Configured uncrustify additional arguments: 
+[7.023s] -- Added test 'xmllint' to check XML markup files
+[7.032s] -- Configuring done
+[7.161s] -- Generating done
+[7.203s] -- Build files have been written to: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation
+[7.276s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/amr_visualisation -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation
+[7.277s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation -- -j6 -l6
+[7.473s] [ 12%] [32mBuilding CXX object CMakeFiles/joints_publisher.dir/src/joints_publisher.cpp.o[0m
+[38.753s] [ 25%] [32m[1mLinking CXX executable joints_publisher[0m
+[43.757s] [ 25%] Built target joints_publisher
+[43.956s] [ 37%] [32mBuilding CXX object CMakeFiles/laser_scans.dir/src/laser_scans.cpp.o[0m
+[78.629s] [ 50%] [32m[1mLinking CXX executable laser_scans[0m
+[80.308s] [ 50%] Built target laser_scans
+[80.385s] [ 62%] [32mBuilding CXX object CMakeFiles/data_points_marker.dir/src/data_points_marker.cpp.o[0m
+[95.722s] [ 75%] [32m[1mLinking CXX executable data_points_marker[0m
+[96.486s] [ 75%] Built target data_points_marker
+[98.221s] [ 87%] [32mBuilding CXX object CMakeFiles/goals_marker.dir/src/goals_marker.cpp.o[0m
+[130.206s] [100%] [32m[1mLinking CXX executable goals_marker[0m
+[131.723s] [100%] Built target goals_marker
+[131.771s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation -- -j6 -l6
+[131.781s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation
+[131.812s] -- Install configuration: ""
+[131.812s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/joints_publisher
+[131.828s] -- Set runtime path of "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/joints_publisher" to ""
+[131.828s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/data_points_marker
+[131.832s] -- Set runtime path of "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/data_points_marker" to ""
+[131.833s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/goals_marker
+[131.844s] -- Set runtime path of "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/goals_marker" to ""
+[131.845s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/laser_scans
+[131.855s] -- Set runtime path of "/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/lib/amr_visualisation/laser_scans" to ""
+[131.855s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/launch
+[131.856s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/launch/display.launch.py
+[131.863s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/config
+[131.864s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/config/amr_rviz.rviz
+[131.865s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/map
+[131.865s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/map/data.map
+[131.873s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes
+[131.874s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes/AMR_Platform.STL
+[131.997s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes/LD250.obj
+[132.272s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes/LD250.mtl
+[132.273s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes/LD90.obj
+[132.665s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/meshes/LD90.mtl
+[132.666s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/param
+[132.667s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/param/vis_param.yaml
+[132.667s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/urdf
+[132.667s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/urdf/AMR_Platform.urdf
+[132.668s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/urdf/LD90.urdf
+[132.669s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/urdf/LD250.urdf
+[132.671s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/ament_index/resource_index/package_run_dependencies/amr_visualisation
+[132.673s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/ament_index/resource_index/parent_prefix_path/amr_visualisation
+[132.674s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.sh
+[132.675s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/environment/ament_prefix_path.dsv
+[132.676s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/environment/path.sh
+[132.676s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/environment/path.dsv
+[132.677s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/local_setup.bash
+[132.678s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/local_setup.sh
+[132.679s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/local_setup.zsh
+[132.680s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/local_setup.dsv
+[132.681s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/package.dsv
+[132.682s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/ament_index/resource_index/packages/amr_visualisation
+[132.683s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig.cmake
+[132.684s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/cmake/amr_visualisationConfig-version.cmake
+[132.685s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/amr_visualisation/share/amr_visualisation/package.xml
+[132.706s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/amr_visualisation

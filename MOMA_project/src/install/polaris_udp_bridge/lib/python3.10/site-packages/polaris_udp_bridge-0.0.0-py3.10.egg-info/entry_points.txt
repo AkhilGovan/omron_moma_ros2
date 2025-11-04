@@ -1,0 +1,3 @@
+[console_scripts]
+bridge = polaris_udp_bridge.bridge_node:main
+

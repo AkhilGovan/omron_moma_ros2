@@ -1,0 +1,72 @@
+[0.073s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm12s_moveit_config -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config
+[2.040s] -- The C compiler identification is GNU 11.4.0
+[4.117s] -- The CXX compiler identification is GNU 11.4.0
+[4.155s] -- Detecting C compiler ABI info
+[5.384s] -- Detecting C compiler ABI info - done
+[5.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.416s] -- Detecting C compile features
+[5.416s] -- Detecting C compile features - done
+[5.462s] -- Detecting CXX compiler ABI info
+[6.318s] -- Detecting CXX compiler ABI info - done
+[6.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.366s] -- Detecting CXX compile features
+[6.368s] -- Detecting CXX compile features - done
+[6.392s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.616s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.918s] -- Configuring done
+[8.936s] -- Generating done
+[8.983s] -- Build files have been written to: /home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config
+[9.054s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/tm12s_moveit_config -DCMAKE_INSTALL_PREFIX=/home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config
+[9.055s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config -- -j6 -l6
+[9.449s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake --build /home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config -- -j6 -l6
+[9.450s] Invoking command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config
+[9.521s] -- Install configuration: ""
+[9.522s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/ament_index/resource_index/package_run_dependencies/tm12s_moveit_config
+[9.523s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/ament_index/resource_index/parent_prefix_path/tm12s_moveit_config
+[9.533s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/environment/ament_prefix_path.sh
+[9.534s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/environment/ament_prefix_path.dsv
+[9.534s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/environment/path.sh
+[9.534s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/environment/path.dsv
+[9.535s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/local_setup.bash
+[9.541s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/local_setup.sh
+[9.541s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/local_setup.zsh
+[9.541s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/local_setup.dsv
+[9.542s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/package.dsv
+[9.542s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/ament_index/resource_index/packages/tm12s_moveit_config
+[9.542s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/cmake/tm12s_moveit_configConfig.cmake
+[9.542s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/cmake/tm12s_moveit_configConfig-version.cmake
+[9.543s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/package.xml
+[9.543s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch
+[9.552s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/tm12s_run_move_group.launch.py
+[9.556s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/rsp.launch.py
+[9.564s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/moveit_rviz.launch.py
+[9.565s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/move_group.launch.py
+[9.566s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/demo.launch.py
+[9.566s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[9.567s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/tm12s_moveit.launch.py
+[9.568s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/warehouse_db.launch.py
+[9.576s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/run_move_group.rviz
+[9.583s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/setup_assistant.launch.py
+[9.584s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/frames.launch.py
+[9.585s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/launch/spawn_controllers.launch.py
+[9.586s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config
+[9.587s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/controllers.yaml
+[9.588s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/moveit2_controllers.yaml
+[9.588s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/ompl_planning.yaml
+[9.589s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/sensors_3d.yaml
+[9.590s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[9.591s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/tm12s.srdf
+[9.592s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/pilz_cartesian_limits.yaml
+[9.593s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/tm12s.ros2_control.xacro
+[9.593s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/moveit.rviz
+[9.594s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/tm12s.urdf.xacro
+[9.595s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/ros2_controllers.yaml
+[9.596s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/joint_limits.yaml
+[9.597s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/initial_positions.yaml
+[9.597s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/kinematics.yaml
+[9.598s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/moveit_controllers.yaml
+[9.599s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/config/chomp_planning.yaml
+[9.604s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/rviz
+[9.612s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/rviz/moveit.rviz
+[9.614s] -- Installing: /home/akhil/Downloads/omron_moma_ros2/install/tm12s_moveit_config/share/tm12s_moveit_config/.setup_assistant
+[9.624s] Invoked command in '/home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/akhil/Downloads/omron_moma_ros2/install/tm_description:/opt/ros/humble /usr/bin/cmake --install /home/akhil/Downloads/omron_moma_ros2/build/tm12s_moveit_config

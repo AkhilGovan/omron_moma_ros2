@@ -1,0 +1,62 @@
+running egg_info
+creating ../build/om_aiv_navigation/om_aiv_navigation.egg-info
+writing ../build/om_aiv_navigation/om_aiv_navigation.egg-info/PKG-INFO
+writing dependency_links to ../build/om_aiv_navigation/om_aiv_navigation.egg-info/dependency_links.txt
+writing entry points to ../build/om_aiv_navigation/om_aiv_navigation.egg-info/entry_points.txt
+writing requirements to ../build/om_aiv_navigation/om_aiv_navigation.egg-info/requires.txt
+writing top-level names to ../build/om_aiv_navigation/om_aiv_navigation.egg-info/top_level.txt
+writing manifest file '../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+reading manifest file '../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+writing manifest file '../build/om_aiv_navigation/om_aiv_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/point_add_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/dock.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/goto_goal.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/localize_at_point.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/execute_macro.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/goto_goal_demo.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/action_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/goto_point.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+copying om_aiv_navigation/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation
+running install
+running install_lib
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/point_add_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/dock.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_goal.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/localize_at_point.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/execute_macro.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_goal_demo.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/action_server.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/goto_point.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+copying /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/build/lib/om_aiv_navigation/__init__.py -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/point_add_server.py to point_add_server.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/dock.py to dock.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/goto_goal.py to goto_goal.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/localize_at_point.py to localize_at_point.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/execute_macro.py to execute_macro.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/goto_goal_demo.py to goto_goal_demo.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/action_server.py to action_server.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/goto_point.py to goto_point.cpython-310.pyc
+byte-compiling /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/share/ament_index
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/share/ament_index/resource_index
+creating /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/share/ament_index/resource_index/packages
+copying resource/om_aiv_navigation -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/share/om_aiv_navigation
+running install_egg_info
+Copying ../build/om_aiv_navigation/om_aiv_navigation.egg-info to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/python3.10/site-packages/om_aiv_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing action_server script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing dock script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing execute_macro script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing goto_goal script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing goto_goal_demo script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing goto_point script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+Installing localize_at_point script to /home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/install/om_aiv_navigation/lib/om_aiv_navigation
+writing list of installed files to '/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/om_aiv_navigation/install.log'

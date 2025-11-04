@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tm_msgs/srv/MovementRequest.srv
+// generated code does not contain a copyright notice
+
+
+module tm_msgs {
+  module srv {
+    struct MovementRequest_Request {
+      string command;
+
+      sequence<double> positions;
+    };
+    struct MovementRequest_Response {
+      boolean success;
+    };
+  };
+};
