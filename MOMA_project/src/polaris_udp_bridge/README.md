@@ -69,7 +69,9 @@ ros2 run polaris_udp_bridge viz \
   -p input_is_mm:=false
 ```
 
-## RViz Setup
+## RViz Setup/ Run TM RVIZ
+
+ros2 launch tm12s_moveit_config tm12s_run_move_group.launch.py robot_ip:=192.168.1.2
 
 Start RViz:
 
