@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'bridge = polaris_udp_bridge.bridge_node:main',
+            'viz = polaris_udp_bridge.polaris_viz:main',
         ],
     },
 )
