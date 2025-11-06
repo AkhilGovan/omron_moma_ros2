@@ -1,3 +1,0 @@
-string command # move, setheading
-string param1 # (mm) for move, degree in setheading
-string param2

@@ -1,3 +1,0 @@
-[console_scripts]
-demo_routine = demo_package.demo_routine:main
-

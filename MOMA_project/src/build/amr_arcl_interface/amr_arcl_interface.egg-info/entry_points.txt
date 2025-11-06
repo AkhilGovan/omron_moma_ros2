@@ -1,4 +1,0 @@
-[console_scripts]
-client = amr_arcl_interface.client:main
-server = amr_arcl_interface.server:main
-

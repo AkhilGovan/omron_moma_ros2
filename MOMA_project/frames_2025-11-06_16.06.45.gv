@@ -1,0 +1,18 @@
+digraph G {
+"polaris_camera" -> "polaris_optical"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "polaris_camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "base"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base" -> "link_0"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"flange" -> "camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"link_6" -> "flange"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"link_5" -> "link_6"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+"link_0" -> "link_1"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+"link_1" -> "link_2"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+"link_2" -> "link_3"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+"link_3" -> "link_4"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+"link_4" -> "link_5"[label=" Broadcaster: default_authority\nAverage rate: 16.604\nBuffer length: 4.035\nMost recent transform: 1762405605.68822\nOldest transform: 1762405601.653095\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1762405605.723012"[ shape=plaintext ] ;
+}->"world";
+}

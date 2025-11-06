@@ -1,5 +1,0 @@
-[console_scripts]
-camera_client = camera.camera_client:main
-camera_node = camera.camera_node:main
-camera_server = camera.camera_server:main
-

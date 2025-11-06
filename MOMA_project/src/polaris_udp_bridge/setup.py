@@ -27,6 +27,7 @@ setup(
             'bridge = polaris_udp_bridge.bridge_node:main',
             'viz = polaris_udp_bridge.polaris_viz:main',
             'calibrate_two_tools = polaris_udp_bridge.polaris_calibrate:main',
+            'polaris_to_robot_bridge = polaris_udp_bridge.polaris_to_robot_bridge:main',
         ],
     },
 )

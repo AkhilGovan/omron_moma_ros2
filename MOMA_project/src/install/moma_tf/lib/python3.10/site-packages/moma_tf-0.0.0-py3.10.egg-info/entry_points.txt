@@ -1,3 +1,0 @@
-[console_scripts]
-publish_frames = moma_tf.publish_frames:main
-

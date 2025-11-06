@@ -1,4 +1,0 @@
-srv/CameraSrv.idl
-srv/CameraSrv.srv
-srv/CameraSrv_Request.msg
-srv/CameraSrv_Response.msg

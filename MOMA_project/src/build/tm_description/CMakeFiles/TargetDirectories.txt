@@ -1,9 +1,0 @@
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/uninstall.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/tm_description_uninstall.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/test.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/edit_cache.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/rebuild_cache.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/list_install_components.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/install.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/install/local.dir
-/home/akhil/Downloads/omron_moma_ros2/MOMA_project/src/build/tm_description/CMakeFiles/install/strip.dir
