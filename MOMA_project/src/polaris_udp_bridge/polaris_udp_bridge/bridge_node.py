@@ -9,7 +9,7 @@ class PolarisUdpBridge(Node):
         super().__init__("polaris_udp_bridge")
 
         self.port = self.declare_parameter("port", 5555).get_parameter_value().integer_value
-        self.frame_id = self.declare_parameter("frame_id", "polaris_optical").get_parameter_value().string_value
+        self.frame_id = self.declare_parameter("frame_id", "polaris_camera").get_parameter_value().string_value
         self.base_topic = self.declare_parameter("base_topic", "polaris/tool").get_parameter_value().string_value
 
         # Pre-create common tool topics (0 and 1) so you can echo immediately
@@ -61,7 +61,10 @@ class PolarisUdpBridge(Node):
                 try:
                     p = msg.pose.position
                     o = msg.pose.orientation
-                    p.x = float(m["tx"]); p.y = float(m["ty"]); p.z = float(m["tz"])
+                    MM_TO_M = 0.001
+                    p.x = float(m["tx"]) * MM_TO_M
+                    p.y = float(m["ty"]) * MM_TO_M
+                    p.z = float(m["tz"]) * MM_TO_M
                     o.x = float(m["qx"]); o.y = float(m["qy"]); o.z = float(m["qz"]); o.w = float(m["qw"])
                 except KeyError as e:
                     self.get_logger().warn(f"Missing field in UDP: {e}")

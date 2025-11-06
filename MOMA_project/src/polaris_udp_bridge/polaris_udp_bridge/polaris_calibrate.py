@@ -238,11 +238,12 @@ class TwoToolCalibrator(Node):
         if self.publish_marker:
             ma = MarkerArray()
             now = self.get_clock().now().to_msg()
+
             # small triad at camera origin
-            for i, (dx,dy,dz, rid, col) in enumerate([
-                (0.05, 0,    0,    0, (1,0,0,1)),  # X
-                (0,    0.05, 0,    1, (0,1,0,1)),  # Y
-                (0,    0,    0.05, 2, (0,0,1,1)),  # Z
+            for i, (rid, rgba) in enumerate([
+                (0, (1.0, 0.0, 0.0, 1.0)),  # X (red)
+                (1, (0.0, 1.0, 0.0, 1.0)),  # Y (green)
+                (2, (0.0, 0.0, 1.0, 1.0)),  # Z (blue)
             ]):
                 m = Marker()
                 m.header.frame_id = self.camera_frame
@@ -252,13 +253,18 @@ class TwoToolCalibrator(Node):
                 m.type = Marker.ARROW
                 m.action = Marker.ADD
                 m.pose.orientation.w = 1.0
-                m.scale.x = 0.05  # shaft length
-                m.scale.y = 0.01  # shaft diameter
-                m.scale.z = 0.02  # head diameter
-                m.color.r, m.color.g, m.color.b, m.color.a = col
-                # ARROW at origin points along +axis by setting position at origin and orientation identity,
-                # but rviz Marker.ARROW needs points to draw a custom arrow. Simpler: use a CYLINDER per axis? For brevity keep ARROW.
+                m.scale.x = 0.05   # shaft length
+                m.scale.y = 0.01   # shaft diameter
+                m.scale.z = 0.02   # head diameter
+                # Force float assignment
+                m.color.r = float(rgba[0])
+                m.color.g = float(rgba[1])
+                m.color.b = float(rgba[2])
+                m.color.a = float(rgba[3])
                 ma.markers.append(m)
+
+            self.pub_markers.publish(ma)
+
             self.pub_markers.publish(ma)
 
         self.done = True

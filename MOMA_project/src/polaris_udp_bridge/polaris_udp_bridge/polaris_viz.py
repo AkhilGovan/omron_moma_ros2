@@ -14,7 +14,7 @@ class PolarisMarkerViz(Node):
         super().__init__('polaris_marker_viz')
 
         # ---- Parameters ----
-        self.frame_id = self.declare_parameter('frame_id', 'polaris_optical') \
+        self.frame_id = self.declare_parameter('frame_id', 'polaris_camera') \
             .get_parameter_value().string_value
         self.scan_period = self.declare_parameter('scan_period', 1.0) \
             .get_parameter_value().double_value

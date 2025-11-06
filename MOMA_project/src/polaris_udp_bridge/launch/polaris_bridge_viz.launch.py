@@ -11,7 +11,7 @@ def generate_launch_description():
             output='screen',
             parameters=[
                 {'port': 5555},
-                {'frame_id': 'polaris_optical'},
+                {'frame_id': 'polaris_camera'},
                 {'base_topic': 'polaris/tool'}
             ],
         ),
@@ -23,7 +23,7 @@ def generate_launch_description():
             name='polaris_marker_viz',
             output='screen',
             parameters=[
-                {'frame_id': 'polaris_optical'},
+                {'frame_id': 'world'},
                 {'markers_topic': '/polaris/marker_array'},
                 {'topic_prefix': 'polaris/tool'},
                 {'marker_scale_m': 0.02},    # 20 mm spheres
